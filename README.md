@@ -15,6 +15,9 @@ This project demonstrates the use of Wireshark display filters to isolate and an
 
 * `tcp`: Show only TCP packets.
 * `ip.addr == 192.168.80.1`: Show packets to/from 192.168.80.1.
+
+![Screenshot of ip.addr](images/ippaddr.png)
+
 * `http.request.method == "GET"`: Show HTTP GET requests.
 * `dns.qry.name contains "google.com"`: Show DNS queries containing "google.com".
 
